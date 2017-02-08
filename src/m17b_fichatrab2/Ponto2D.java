@@ -13,6 +13,7 @@ public class Ponto2D {
     
     // Faltam construtor, getters e setters.
     
+    
     /**
      * Construtores com dois parâmetros, que inicializa os atributos
      * com valores predefinidos.
