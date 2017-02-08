@@ -53,7 +53,7 @@ public class Ponto2D {
     } 
     /**
      * 
-     * @param a
+     * @param a - parametro do tipo Ponto2D.
      * @return valor de distancia
      */
     public double distancia(Ponto2D a){
