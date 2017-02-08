@@ -39,14 +39,14 @@ public class Ponto2D {
     }
     /**
      * 
-     * @param x. 
+     * @param x - ponto x. 
      */
     public void setX(int x) {
         this.x = x;
     }
     /**
      * 
-     * @param y.
+     * @param y - ponto y.
      */
     public void setY(int y) {
         this.y = y;
