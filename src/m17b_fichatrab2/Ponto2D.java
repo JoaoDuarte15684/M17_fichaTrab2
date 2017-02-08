@@ -7,7 +7,7 @@ package m17b_fichatrab2;
  */
 
 public class Ponto2D {
-    /** Pontos x e y*/
+    /** Cordenadas x e y*/
     private int x;
     private int y;
     
@@ -32,21 +32,21 @@ public class Ponto2D {
     }
     /**
      * 
-     * @return valor de y.
+     * @return valor y.
      */
     public int getY() {
         return y;
     }
     /**
      * 
-     * @param x - ponto x. 
+     * @param x - cordenada x. 
      */
     public void setX(int x) {
         this.x = x;
     }
     /**
      * 
-     * @param y - ponto y.
+     * @param y - cordenada y.
      */
     public void setY(int y) {
         this.y = y;
