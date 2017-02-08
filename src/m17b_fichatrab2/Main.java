@@ -1,5 +1,8 @@
 package m17b_fichatrab2;
-
+/**
+ * Main para criar e testar funcionamento de pontos da classe Ponto2D
+ * @author a15684
+ */
 public class Main {
 
     public static void main(String[] args) {
