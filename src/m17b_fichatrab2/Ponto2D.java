@@ -1,7 +1,7 @@
 package m17b_fichatrab2;
 
 /**
- * Classe Ponto2D, para instanciar pontos
+ * Classe Ponto2D, para instanciar objetos2D
  * @version 1.1, 07.fev.2017
  * @author a15684
  */
@@ -53,12 +53,24 @@ public class Ponto2D {
     /**
      * 
      * @param a
-     * @return 
+     * @return valor de distancia
      */
     public double distancia(Ponto2D a){
         // Falta fazer este método.
+        double distancia = 0.0;
         
-        return 0.0;
+        
+        distancia = Math.sqrt((Math.pow (x - a.getX(),2) + Math.pow(y - a.getY(),2 )));
+        
+        return distancia;
+    }
+    /**
+     * 
+     * @return String com os valores de x e y.
+     */
+    @Override
+    public String toString() {
+        return "Ponto2D{ " + "x = " + x + " , y = " + y + " }";
     }
     
 }
